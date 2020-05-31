@@ -1,3 +1,0 @@
-function Vee = two_electron_braket(vijkl, )
-    Vee = zeros(size)
-end
