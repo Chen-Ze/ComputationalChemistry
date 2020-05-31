@@ -1,0 +1,1 @@
+Execute `scf_H2` in matlab will print the total energy of H2.
