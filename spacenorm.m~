@@ -1,0 +1,9 @@
+function n=spacenorm(x,y,z,u,v,w)
+    if nargin < 4
+        u = ; v = 0; w = 0;
+    end
+    p = x - u;
+    q = y - v;
+    w = z - w;
+    n = p.^2 + q.^2 + w.^2;
+end
